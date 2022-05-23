@@ -142,275 +142,275 @@ OOP3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/build
 .PHONY : OOP3/fast
 
-Artist.obj: Artist.cpp.obj
+lib/Artist.obj: lib/Artist.cpp.obj
 
-.PHONY : Artist.obj
-
-# target to build an object file
-Artist.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Artist.cpp.obj
-.PHONY : Artist.cpp.obj
-
-Artist.i: Artist.cpp.i
-
-.PHONY : Artist.i
-
-# target to preprocess a source file
-Artist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Artist.cpp.i
-.PHONY : Artist.cpp.i
-
-Artist.s: Artist.cpp.s
-
-.PHONY : Artist.s
-
-# target to generate assembly for a file
-Artist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Artist.cpp.s
-.PHONY : Artist.cpp.s
-
-Employee.obj: Employee.cpp.obj
-
-.PHONY : Employee.obj
+.PHONY : lib/Artist.obj
 
 # target to build an object file
-Employee.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Employee.cpp.obj
-.PHONY : Employee.cpp.obj
+lib/Artist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Artist.cpp.obj
+.PHONY : lib/Artist.cpp.obj
 
-Employee.i: Employee.cpp.i
+lib/Artist.i: lib/Artist.cpp.i
 
-.PHONY : Employee.i
+.PHONY : lib/Artist.i
 
 # target to preprocess a source file
-Employee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Employee.cpp.i
-.PHONY : Employee.cpp.i
+lib/Artist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Artist.cpp.i
+.PHONY : lib/Artist.cpp.i
 
-Employee.s: Employee.cpp.s
+lib/Artist.s: lib/Artist.cpp.s
 
-.PHONY : Employee.s
+.PHONY : lib/Artist.s
 
 # target to generate assembly for a file
-Employee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Employee.cpp.s
-.PHONY : Employee.cpp.s
+lib/Artist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Artist.cpp.s
+.PHONY : lib/Artist.cpp.s
 
-Enum.obj: Enum.cpp.obj
+lib/Employee.obj: lib/Employee.cpp.obj
 
-.PHONY : Enum.obj
+.PHONY : lib/Employee.obj
 
 # target to build an object file
-Enum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Enum.cpp.obj
-.PHONY : Enum.cpp.obj
+lib/Employee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Employee.cpp.obj
+.PHONY : lib/Employee.cpp.obj
 
-Enum.i: Enum.cpp.i
+lib/Employee.i: lib/Employee.cpp.i
 
-.PHONY : Enum.i
+.PHONY : lib/Employee.i
 
 # target to preprocess a source file
-Enum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Enum.cpp.i
-.PHONY : Enum.cpp.i
+lib/Employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Employee.cpp.i
+.PHONY : lib/Employee.cpp.i
 
-Enum.s: Enum.cpp.s
+lib/Employee.s: lib/Employee.cpp.s
 
-.PHONY : Enum.s
+.PHONY : lib/Employee.s
 
 # target to generate assembly for a file
-Enum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Enum.cpp.s
-.PHONY : Enum.cpp.s
+lib/Employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Employee.cpp.s
+.PHONY : lib/Employee.cpp.s
 
-Guard.obj: Guard.cpp.obj
+lib/Enum.obj: lib/Enum.cpp.obj
 
-.PHONY : Guard.obj
+.PHONY : lib/Enum.obj
 
 # target to build an object file
-Guard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Guard.cpp.obj
-.PHONY : Guard.cpp.obj
+lib/Enum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Enum.cpp.obj
+.PHONY : lib/Enum.cpp.obj
 
-Guard.i: Guard.cpp.i
+lib/Enum.i: lib/Enum.cpp.i
 
-.PHONY : Guard.i
+.PHONY : lib/Enum.i
 
 # target to preprocess a source file
-Guard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Guard.cpp.i
-.PHONY : Guard.cpp.i
+lib/Enum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Enum.cpp.i
+.PHONY : lib/Enum.cpp.i
 
-Guard.s: Guard.cpp.s
+lib/Enum.s: lib/Enum.cpp.s
 
-.PHONY : Guard.s
+.PHONY : lib/Enum.s
 
 # target to generate assembly for a file
-Guard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Guard.cpp.s
-.PHONY : Guard.cpp.s
+lib/Enum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Enum.cpp.s
+.PHONY : lib/Enum.cpp.s
 
-Gun.obj: Gun.cpp.obj
+lib/Guard.obj: lib/Guard.cpp.obj
 
-.PHONY : Gun.obj
+.PHONY : lib/Guard.obj
 
 # target to build an object file
-Gun.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Gun.cpp.obj
-.PHONY : Gun.cpp.obj
+lib/Guard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Guard.cpp.obj
+.PHONY : lib/Guard.cpp.obj
 
-Gun.i: Gun.cpp.i
+lib/Guard.i: lib/Guard.cpp.i
 
-.PHONY : Gun.i
+.PHONY : lib/Guard.i
 
 # target to preprocess a source file
-Gun.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Gun.cpp.i
-.PHONY : Gun.cpp.i
+lib/Guard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Guard.cpp.i
+.PHONY : lib/Guard.cpp.i
 
-Gun.s: Gun.cpp.s
+lib/Guard.s: lib/Guard.cpp.s
 
-.PHONY : Gun.s
+.PHONY : lib/Guard.s
 
 # target to generate assembly for a file
-Gun.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Gun.cpp.s
-.PHONY : Gun.cpp.s
+lib/Guard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Guard.cpp.s
+.PHONY : lib/Guard.cpp.s
 
-Person.obj: Person.cpp.obj
+lib/Gun.obj: lib/Gun.cpp.obj
 
-.PHONY : Person.obj
+.PHONY : lib/Gun.obj
 
 # target to build an object file
-Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Person.cpp.obj
-.PHONY : Person.cpp.obj
+lib/Gun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Gun.cpp.obj
+.PHONY : lib/Gun.cpp.obj
 
-Person.i: Person.cpp.i
+lib/Gun.i: lib/Gun.cpp.i
 
-.PHONY : Person.i
+.PHONY : lib/Gun.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+lib/Gun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Gun.cpp.i
+.PHONY : lib/Gun.cpp.i
 
-Person.s: Person.cpp.s
+lib/Gun.s: lib/Gun.cpp.s
 
-.PHONY : Person.s
+.PHONY : lib/Gun.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+lib/Gun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Gun.cpp.s
+.PHONY : lib/Gun.cpp.s
 
-PersonalInfo.obj: PersonalInfo.cpp.obj
+lib/Person.obj: lib/Person.cpp.obj
 
-.PHONY : PersonalInfo.obj
+.PHONY : lib/Person.obj
 
 # target to build an object file
-PersonalInfo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj
-.PHONY : PersonalInfo.cpp.obj
+lib/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Person.cpp.obj
+.PHONY : lib/Person.cpp.obj
 
-PersonalInfo.i: PersonalInfo.cpp.i
+lib/Person.i: lib/Person.cpp.i
 
-.PHONY : PersonalInfo.i
+.PHONY : lib/Person.i
 
 # target to preprocess a source file
-PersonalInfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/PersonalInfo.cpp.i
-.PHONY : PersonalInfo.cpp.i
+lib/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Person.cpp.i
+.PHONY : lib/Person.cpp.i
 
-PersonalInfo.s: PersonalInfo.cpp.s
+lib/Person.s: lib/Person.cpp.s
 
-.PHONY : PersonalInfo.s
+.PHONY : lib/Person.s
 
 # target to generate assembly for a file
-PersonalInfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/PersonalInfo.cpp.s
-.PHONY : PersonalInfo.cpp.s
+lib/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Person.cpp.s
+.PHONY : lib/Person.cpp.s
 
-Programmer.obj: Programmer.cpp.obj
+lib/PersonalInfo.obj: lib/PersonalInfo.cpp.obj
 
-.PHONY : Programmer.obj
+.PHONY : lib/PersonalInfo.obj
 
 # target to build an object file
-Programmer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Programmer.cpp.obj
-.PHONY : Programmer.cpp.obj
+lib/PersonalInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj
+.PHONY : lib/PersonalInfo.cpp.obj
 
-Programmer.i: Programmer.cpp.i
+lib/PersonalInfo.i: lib/PersonalInfo.cpp.i
 
-.PHONY : Programmer.i
+.PHONY : lib/PersonalInfo.i
 
 # target to preprocess a source file
-Programmer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Programmer.cpp.i
-.PHONY : Programmer.cpp.i
+lib/PersonalInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.i
+.PHONY : lib/PersonalInfo.cpp.i
 
-Programmer.s: Programmer.cpp.s
+lib/PersonalInfo.s: lib/PersonalInfo.cpp.s
 
-.PHONY : Programmer.s
+.PHONY : lib/PersonalInfo.s
 
 # target to generate assembly for a file
-Programmer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/Programmer.cpp.s
-.PHONY : Programmer.cpp.s
+lib/PersonalInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.s
+.PHONY : lib/PersonalInfo.cpp.s
 
-WorkStuffInfo.obj: WorkStuffInfo.cpp.obj
+lib/Programmer.obj: lib/Programmer.cpp.obj
 
-.PHONY : WorkStuffInfo.obj
+.PHONY : lib/Programmer.obj
 
 # target to build an object file
-WorkStuffInfo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj
-.PHONY : WorkStuffInfo.cpp.obj
+lib/Programmer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj
+.PHONY : lib/Programmer.cpp.obj
 
-WorkStuffInfo.i: WorkStuffInfo.cpp.i
+lib/Programmer.i: lib/Programmer.cpp.i
 
-.PHONY : WorkStuffInfo.i
+.PHONY : lib/Programmer.i
 
 # target to preprocess a source file
-WorkStuffInfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.i
-.PHONY : WorkStuffInfo.cpp.i
+lib/Programmer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Programmer.cpp.i
+.PHONY : lib/Programmer.cpp.i
 
-WorkStuffInfo.s: WorkStuffInfo.cpp.s
+lib/Programmer.s: lib/Programmer.cpp.s
 
-.PHONY : WorkStuffInfo.s
+.PHONY : lib/Programmer.s
 
 # target to generate assembly for a file
-WorkStuffInfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.s
-.PHONY : WorkStuffInfo.cpp.s
+lib/Programmer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Programmer.cpp.s
+.PHONY : lib/Programmer.cpp.s
 
-main.obj: main.cpp.obj
+lib/WorkStuffInfo.obj: lib/WorkStuffInfo.cpp.obj
 
-.PHONY : main.obj
+.PHONY : lib/WorkStuffInfo.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+lib/WorkStuffInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj
+.PHONY : lib/WorkStuffInfo.cpp.obj
 
-main.i: main.cpp.i
+lib/WorkStuffInfo.i: lib/WorkStuffInfo.cpp.i
 
-.PHONY : main.i
+.PHONY : lib/WorkStuffInfo.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/main.cpp.i
-.PHONY : main.cpp.i
+lib/WorkStuffInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.i
+.PHONY : lib/WorkStuffInfo.cpp.i
 
-main.s: main.cpp.s
+lib/WorkStuffInfo.s: lib/WorkStuffInfo.cpp.s
 
-.PHONY : main.s
+.PHONY : lib/WorkStuffInfo.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/main.cpp.s
-.PHONY : main.cpp.s
+lib/WorkStuffInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.s
+.PHONY : lib/WorkStuffInfo.cpp.s
+
+test/main.obj: test/main.cpp.obj
+
+.PHONY : test/main.obj
+
+# target to build an object file
+test/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/test/main.cpp.obj
+.PHONY : test/main.cpp.obj
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
 
 # Help Target
 help:
@@ -421,36 +421,36 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP3
-	@echo ... Artist.obj
-	@echo ... Artist.i
-	@echo ... Artist.s
-	@echo ... Employee.obj
-	@echo ... Employee.i
-	@echo ... Employee.s
-	@echo ... Enum.obj
-	@echo ... Enum.i
-	@echo ... Enum.s
-	@echo ... Guard.obj
-	@echo ... Guard.i
-	@echo ... Guard.s
-	@echo ... Gun.obj
-	@echo ... Gun.i
-	@echo ... Gun.s
-	@echo ... Person.obj
-	@echo ... Person.i
-	@echo ... Person.s
-	@echo ... PersonalInfo.obj
-	@echo ... PersonalInfo.i
-	@echo ... PersonalInfo.s
-	@echo ... Programmer.obj
-	@echo ... Programmer.i
-	@echo ... Programmer.s
-	@echo ... WorkStuffInfo.obj
-	@echo ... WorkStuffInfo.i
-	@echo ... WorkStuffInfo.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... lib/Artist.obj
+	@echo ... lib/Artist.i
+	@echo ... lib/Artist.s
+	@echo ... lib/Employee.obj
+	@echo ... lib/Employee.i
+	@echo ... lib/Employee.s
+	@echo ... lib/Enum.obj
+	@echo ... lib/Enum.i
+	@echo ... lib/Enum.s
+	@echo ... lib/Guard.obj
+	@echo ... lib/Guard.i
+	@echo ... lib/Guard.s
+	@echo ... lib/Gun.obj
+	@echo ... lib/Gun.i
+	@echo ... lib/Gun.s
+	@echo ... lib/Person.obj
+	@echo ... lib/Person.i
+	@echo ... lib/Person.s
+	@echo ... lib/PersonalInfo.obj
+	@echo ... lib/PersonalInfo.i
+	@echo ... lib/PersonalInfo.s
+	@echo ... lib/Programmer.obj
+	@echo ... lib/Programmer.i
+	@echo ... lib/Programmer.s
+	@echo ... lib/WorkStuffInfo.obj
+	@echo ... lib/WorkStuffInfo.i
+	@echo ... lib/WorkStuffInfo.s
+	@echo ... test/main.obj
+	@echo ... test/main.i
+	@echo ... test/main.s
 .PHONY : help
 
 

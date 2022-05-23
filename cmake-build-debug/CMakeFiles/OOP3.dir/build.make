@@ -76,162 +76,172 @@ include CMakeFiles/OOP3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OOP3.dir/flags.make
 
-CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj: PersonalInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\PersonalInfo.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\PersonalInfo.cpp
+CMakeFiles/OOP3.dir/lib/Artist.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Artist.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Artist.cpp.obj: ../lib/Artist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP3.dir/lib/Artist.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Artist.cpp.obj -c D:\c_lion\OOP3\lib\Artist.cpp
 
-CMakeFiles/OOP3.dir/PersonalInfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/PersonalInfo.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\PersonalInfo.cpp > CMakeFiles\OOP3.dir\PersonalInfo.cpp.i
+CMakeFiles/OOP3.dir/lib/Artist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Artist.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Artist.cpp > CMakeFiles\OOP3.dir\lib\Artist.cpp.i
 
-CMakeFiles/OOP3.dir/PersonalInfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/PersonalInfo.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\PersonalInfo.cpp -o CMakeFiles\OOP3.dir\PersonalInfo.cpp.s
+CMakeFiles/OOP3.dir/lib/Artist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Artist.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Artist.cpp -o CMakeFiles\OOP3.dir\lib\Artist.cpp.s
 
-CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj: WorkStuffInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\WorkStuffInfo.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\WorkStuffInfo.cpp
+CMakeFiles/OOP3.dir/lib/Employee.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Employee.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Employee.cpp.obj: ../lib/Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OOP3.dir/lib/Employee.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Employee.cpp.obj -c D:\c_lion\OOP3\lib\Employee.cpp
 
-CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\WorkStuffInfo.cpp > CMakeFiles\OOP3.dir\WorkStuffInfo.cpp.i
+CMakeFiles/OOP3.dir/lib/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Employee.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Employee.cpp > CMakeFiles\OOP3.dir\lib\Employee.cpp.i
 
-CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\WorkStuffInfo.cpp -o CMakeFiles\OOP3.dir\WorkStuffInfo.cpp.s
+CMakeFiles/OOP3.dir/lib/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Employee.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Employee.cpp -o CMakeFiles\OOP3.dir\lib\Employee.cpp.s
 
-CMakeFiles/OOP3.dir/Employee.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Employee.cpp.obj: Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP3.dir/Employee.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Employee.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Employee.cpp
+CMakeFiles/OOP3.dir/lib/Enum.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Enum.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Enum.cpp.obj: ../lib/Enum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OOP3.dir/lib/Enum.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Enum.cpp.obj -c D:\c_lion\OOP3\lib\Enum.cpp
 
-CMakeFiles/OOP3.dir/Employee.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Employee.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Employee.cpp > CMakeFiles\OOP3.dir\Employee.cpp.i
+CMakeFiles/OOP3.dir/lib/Enum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Enum.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Enum.cpp > CMakeFiles\OOP3.dir\lib\Enum.cpp.i
 
-CMakeFiles/OOP3.dir/Employee.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Employee.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Employee.cpp -o CMakeFiles\OOP3.dir\Employee.cpp.s
+CMakeFiles/OOP3.dir/lib/Enum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Enum.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Enum.cpp -o CMakeFiles\OOP3.dir\lib\Enum.cpp.s
 
-CMakeFiles/OOP3.dir/Artist.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Artist.cpp.obj: Artist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP3.dir/Artist.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Artist.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Artist.cpp
+CMakeFiles/OOP3.dir/lib/Guard.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Guard.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Guard.cpp.obj: ../lib/Guard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OOP3.dir/lib/Guard.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Guard.cpp.obj -c D:\c_lion\OOP3\lib\Guard.cpp
 
-CMakeFiles/OOP3.dir/Artist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Artist.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Artist.cpp > CMakeFiles\OOP3.dir\Artist.cpp.i
+CMakeFiles/OOP3.dir/lib/Guard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Guard.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Guard.cpp > CMakeFiles\OOP3.dir\lib\Guard.cpp.i
 
-CMakeFiles/OOP3.dir/Artist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Artist.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Artist.cpp -o CMakeFiles\OOP3.dir\Artist.cpp.s
+CMakeFiles/OOP3.dir/lib/Guard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Guard.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Guard.cpp -o CMakeFiles\OOP3.dir\lib\Guard.cpp.s
 
-CMakeFiles/OOP3.dir/Programmer.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Programmer.cpp.obj: Programmer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP3.dir/Programmer.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Programmer.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Programmer.cpp
+CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: ../lib/Gun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OOP3.dir/lib/Gun.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Gun.cpp.obj -c D:\c_lion\OOP3\lib\Gun.cpp
 
-CMakeFiles/OOP3.dir/Programmer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Programmer.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Programmer.cpp > CMakeFiles\OOP3.dir\Programmer.cpp.i
+CMakeFiles/OOP3.dir/lib/Gun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Gun.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Gun.cpp > CMakeFiles\OOP3.dir\lib\Gun.cpp.i
 
-CMakeFiles/OOP3.dir/Programmer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Programmer.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Programmer.cpp -o CMakeFiles\OOP3.dir\Programmer.cpp.s
+CMakeFiles/OOP3.dir/lib/Gun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Gun.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Gun.cpp -o CMakeFiles\OOP3.dir\lib\Gun.cpp.s
 
-CMakeFiles/OOP3.dir/Enum.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Enum.cpp.obj: Enum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP3.dir/Enum.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Enum.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Enum.cpp
+CMakeFiles/OOP3.dir/lib/Person.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Person.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Person.cpp.obj: ../lib/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OOP3.dir/lib/Person.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Person.cpp.obj -c D:\c_lion\OOP3\lib\Person.cpp
 
-CMakeFiles/OOP3.dir/Enum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Enum.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Enum.cpp > CMakeFiles\OOP3.dir\Enum.cpp.i
+CMakeFiles/OOP3.dir/lib/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Person.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Person.cpp > CMakeFiles\OOP3.dir\lib\Person.cpp.i
 
-CMakeFiles/OOP3.dir/Enum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Enum.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Enum.cpp -o CMakeFiles\OOP3.dir\Enum.cpp.s
+CMakeFiles/OOP3.dir/lib/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Person.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Person.cpp -o CMakeFiles\OOP3.dir\lib\Person.cpp.s
 
-CMakeFiles/OOP3.dir/Gun.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Gun.cpp.obj: Gun.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP3.dir/Gun.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Gun.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Gun.cpp
+CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj: ../lib/PersonalInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\PersonalInfo.cpp.obj -c D:\c_lion\OOP3\lib\PersonalInfo.cpp
 
-CMakeFiles/OOP3.dir/Gun.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Gun.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Gun.cpp > CMakeFiles\OOP3.dir\Gun.cpp.i
+CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\PersonalInfo.cpp > CMakeFiles\OOP3.dir\lib\PersonalInfo.cpp.i
 
-CMakeFiles/OOP3.dir/Gun.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Gun.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Gun.cpp -o CMakeFiles\OOP3.dir\Gun.cpp.s
+CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\PersonalInfo.cpp -o CMakeFiles\OOP3.dir\lib\PersonalInfo.cpp.s
 
-CMakeFiles/OOP3.dir/Guard.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Guard.cpp.obj: Guard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP3.dir/Guard.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Guard.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Guard.cpp
+CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj: ../lib/Programmer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\Programmer.cpp.obj -c D:\c_lion\OOP3\lib\Programmer.cpp
 
-CMakeFiles/OOP3.dir/Guard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Guard.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Guard.cpp > CMakeFiles\OOP3.dir\Guard.cpp.i
+CMakeFiles/OOP3.dir/lib/Programmer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/Programmer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\Programmer.cpp > CMakeFiles\OOP3.dir\lib\Programmer.cpp.i
 
-CMakeFiles/OOP3.dir/Guard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Guard.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Guard.cpp -o CMakeFiles\OOP3.dir\Guard.cpp.s
+CMakeFiles/OOP3.dir/lib/Programmer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/Programmer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\Programmer.cpp -o CMakeFiles\OOP3.dir\lib\Programmer.cpp.s
 
-CMakeFiles/OOP3.dir/main.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/main.cpp.obj: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP3.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\main.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\main.cpp
+CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj: ../lib/WorkStuffInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\lib\WorkStuffInfo.cpp.obj -c D:\c_lion\OOP3\lib\WorkStuffInfo.cpp
 
-CMakeFiles/OOP3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\main.cpp > CMakeFiles\OOP3.dir\main.cpp.i
+CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\lib\WorkStuffInfo.cpp > CMakeFiles\OOP3.dir\lib\WorkStuffInfo.cpp.i
 
-CMakeFiles/OOP3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\main.cpp -o CMakeFiles\OOP3.dir\main.cpp.s
+CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\lib\WorkStuffInfo.cpp -o CMakeFiles\OOP3.dir\lib\WorkStuffInfo.cpp.s
 
-CMakeFiles/OOP3.dir/Person.cpp.obj: CMakeFiles/OOP3.dir/flags.make
-CMakeFiles/OOP3.dir/Person.cpp.obj: Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOP3.dir/Person.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\Person.cpp.obj -c D:\c_lion\OOP3\cmake-build-debug\Person.cpp
+CMakeFiles/OOP3.dir/test/main.cpp.obj: CMakeFiles/OOP3.dir/flags.make
+CMakeFiles/OOP3.dir/test/main.cpp.obj: CMakeFiles/OOP3.dir/includes_CXX.rsp
+CMakeFiles/OOP3.dir/test/main.cpp.obj: ../test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\c_lion\OOP3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OOP3.dir/test/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OOP3.dir\test\main.cpp.obj -c D:\c_lion\OOP3\test\main.cpp
 
-CMakeFiles/OOP3.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/Person.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\cmake-build-debug\Person.cpp > CMakeFiles\OOP3.dir\Person.cpp.i
+CMakeFiles/OOP3.dir/test/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP3.dir/test/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\c_lion\OOP3\test\main.cpp > CMakeFiles\OOP3.dir\test\main.cpp.i
 
-CMakeFiles/OOP3.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/Person.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\cmake-build-debug\Person.cpp -o CMakeFiles\OOP3.dir\Person.cpp.s
+CMakeFiles/OOP3.dir/test/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP3.dir/test/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\c_lion\OOP3\test\main.cpp -o CMakeFiles\OOP3.dir\test\main.cpp.s
 
 # Object files for target OOP3
 OOP3_OBJECTS = \
-"CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj" \
-"CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj" \
-"CMakeFiles/OOP3.dir/Employee.cpp.obj" \
-"CMakeFiles/OOP3.dir/Artist.cpp.obj" \
-"CMakeFiles/OOP3.dir/Programmer.cpp.obj" \
-"CMakeFiles/OOP3.dir/Enum.cpp.obj" \
-"CMakeFiles/OOP3.dir/Gun.cpp.obj" \
-"CMakeFiles/OOP3.dir/Guard.cpp.obj" \
-"CMakeFiles/OOP3.dir/main.cpp.obj" \
-"CMakeFiles/OOP3.dir/Person.cpp.obj"
+"CMakeFiles/OOP3.dir/lib/Artist.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Employee.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Enum.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Guard.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Gun.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Person.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj" \
+"CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj" \
+"CMakeFiles/OOP3.dir/test/main.cpp.obj"
 
 # External object files for target OOP3
 OOP3_EXTERNAL_OBJECTS =
 
-OOP3.exe: CMakeFiles/OOP3.dir/PersonalInfo.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/WorkStuffInfo.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Employee.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Artist.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Programmer.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Enum.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Gun.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Guard.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/main.cpp.obj
-OOP3.exe: CMakeFiles/OOP3.dir/Person.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Artist.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Employee.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Enum.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Guard.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Gun.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Person.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/lib/WorkStuffInfo.cpp.obj
+OOP3.exe: CMakeFiles/OOP3.dir/test/main.cpp.obj
 OOP3.exe: CMakeFiles/OOP3.dir/build.make
 OOP3.exe: CMakeFiles/OOP3.dir/linklibs.rsp
 OOP3.exe: CMakeFiles/OOP3.dir/objects1.rsp

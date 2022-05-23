@@ -1,6 +1,27 @@
 cmake_minimum_required(VERSION 3.17)
 project(OOP3)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OOP3 cmake-build-debug/PersonalInfo.cpp cmake-build-debug/PersonalInfo.h cmake-build-debug/WorkStuffInfo.cpp cmake-build-debug/WorkStuffInfo.h cmake-build-debug/Employee.cpp cmake-build-debug/Employee.h cmake-build-debug/Artist.cpp cmake-build-debug/Artist.h cmake-build-debug/Programmer.cpp cmake-build-debug/Programmer.h cmake-build-debug/Enum.cpp cmake-build-debug/Enum.h cmake-build-debug/Gun.cpp cmake-build-debug/Gun.h cmake-build-debug/Guard.cpp cmake-build-debug/Guard.h cmake-build-debug/main.cpp cmake-build-debug/Person.cpp cmake-build-debug/Person.h)
+include_directories(include)
+
+add_executable(OOP3
+        include/Artist.h
+        include/Employee.h
+        include/Enum.h
+        include/Guard.h
+        include/Gun.h
+        include/Person.h
+        include/PersonalInfo.h
+        include/Programmer.h
+        include/WorkStuffInfo.h
+        lib/Artist.cpp
+        lib/Employee.cpp
+        lib/Enum.cpp
+        lib/Guard.cpp
+        lib/Gun.cpp
+        lib/Person.cpp
+        lib/PersonalInfo.cpp
+        lib/Programmer.cpp
+        lib/WorkStuffInfo.cpp
+        test/main.cpp)

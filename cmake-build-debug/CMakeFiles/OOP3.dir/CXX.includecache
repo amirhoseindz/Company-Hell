@@ -6,61 +6,105 @@
 
 #IncludeRegexTransform: 
 
-D:/c_lion/OOP3/cmake-build-debug/Artist.h
+D:/c_lion/OOP3/include/Artist.h
 Employee.h
-D:/c_lion/OOP3/cmake-build-debug/Employee.h
+D:/c_lion/OOP3/include/Employee.h
 
-D:/c_lion/OOP3/cmake-build-debug/Employee.h
+D:/c_lion/OOP3/include/Employee.h
 WorkStuffInfo.h
-D:/c_lion/OOP3/cmake-build-debug/WorkStuffInfo.h
+D:/c_lion/OOP3/include/WorkStuffInfo.h
 PersonalInfo.h
-D:/c_lion/OOP3/cmake-build-debug/PersonalInfo.h
+D:/c_lion/OOP3/include/PersonalInfo.h
 Person.h
-D:/c_lion/OOP3/cmake-build-debug/Person.h
+D:/c_lion/OOP3/include/Person.h
 
-D:/c_lion/OOP3/cmake-build-debug/Enum.h
+D:/c_lion/OOP3/include/Enum.h
 iostream
 -
 
-D:/c_lion/OOP3/cmake-build-debug/Guard.h
+D:/c_lion/OOP3/include/Guard.h
 Employee.h
-D:/c_lion/OOP3/cmake-build-debug/Employee.h
+D:/c_lion/OOP3/include/Employee.h
 Gun.h
-D:/c_lion/OOP3/cmake-build-debug/Gun.h
+D:/c_lion/OOP3/include/Gun.h
 
-D:/c_lion/OOP3/cmake-build-debug/Gun.h
+D:/c_lion/OOP3/include/Gun.h
 Enum.h
-D:/c_lion/OOP3/cmake-build-debug/Enum.h
+D:/c_lion/OOP3/include/Enum.h
 
-D:/c_lion/OOP3/cmake-build-debug/Person.h
+D:/c_lion/OOP3/include/Person.h
 PersonalInfo.h
-D:/c_lion/OOP3/cmake-build-debug/PersonalInfo.h
+D:/c_lion/OOP3/include/PersonalInfo.h
 
-D:/c_lion/OOP3/cmake-build-debug/PersonalInfo.h
+D:/c_lion/OOP3/include/PersonalInfo.h
 iostream
 -
 
-D:/c_lion/OOP3/cmake-build-debug/Programmer.h
+D:/c_lion/OOP3/include/Programmer.h
 Employee.h
-D:/c_lion/OOP3/cmake-build-debug/Employee.h
+D:/c_lion/OOP3/include/Employee.h
 
-D:/c_lion/OOP3/cmake-build-debug/WorkStuffInfo.h
+D:/c_lion/OOP3/include/WorkStuffInfo.h
 
-D:/c_lion/OOP3/cmake-build-debug/main.cpp
+D:/c_lion/OOP3/lib/Artist.cpp
+../include/Artist.h
+D:/c_lion/OOP3/include/Artist.h
+utility
+-
+
+D:/c_lion/OOP3/lib/Employee.cpp
+../include/Employee.h
+D:/c_lion/OOP3/include/Employee.h
+utility
+-
+
+D:/c_lion/OOP3/lib/Enum.cpp
+../include/Enum.h
+D:/c_lion/OOP3/include/Enum.h
+
+D:/c_lion/OOP3/lib/Guard.cpp
+../include/Guard.h
+D:/c_lion/OOP3/include/Guard.h
+utility
+-
+
+D:/c_lion/OOP3/lib/Gun.cpp
+../include/Gun.h
+D:/c_lion/OOP3/include/Gun.h
+
+D:/c_lion/OOP3/lib/Person.cpp
+../include/Person.h
+D:/c_lion/OOP3/include/Person.h
+utility
+-
+
+D:/c_lion/OOP3/lib/PersonalInfo.cpp
+../include/PersonalInfo.h
+D:/c_lion/OOP3/include/PersonalInfo.h
+utility
+-
+
+D:/c_lion/OOP3/lib/Programmer.cpp
+../include/Programmer.h
+D:/c_lion/OOP3/include/Programmer.h
+utility
+-
+
+D:/c_lion/OOP3/lib/WorkStuffInfo.cpp
+../include/WorkStuffInfo.h
+D:/c_lion/OOP3/include/WorkStuffInfo.h
+iostream
+-
+
+D:/c_lion/OOP3/test/main.cpp
 iostream
 -
 vector
 -
-Gun.h
-D:/c_lion/OOP3/cmake-build-debug/Gun.h
-PersonalInfo.h
-D:/c_lion/OOP3/cmake-build-debug/PersonalInfo.h
-WorkStuffInfo.h
-D:/c_lion/OOP3/cmake-build-debug/WorkStuffInfo.h
-Artist.h
-D:/c_lion/OOP3/cmake-build-debug/Artist.h
-Programmer.h
-D:/c_lion/OOP3/cmake-build-debug/Programmer.h
-Guard.h
-D:/c_lion/OOP3/cmake-build-debug/Guard.h
+../include/Artist.h
+D:/c_lion/OOP3/include/Artist.h
+../include/Programmer.h
+D:/c_lion/OOP3/include/Programmer.h
+../include/Guard.h
+D:/c_lion/OOP3/include/Guard.h
 

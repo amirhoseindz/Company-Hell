@@ -1,8 +1,5 @@
 #include <iostream>
 #include <vector>
-#include "../include/Gun.h"
-#include "../include/PersonalInfo.h"
-#include "../include/WorkStuffInfo.h"
 #include "../include/Artist.h"
 #include "../include/Programmer.h"
 #include "../include/Guard.h"
