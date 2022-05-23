@@ -15,7 +15,7 @@ void Guard :: SetGuardsGunObj(Gun gun)
     }
 }
 Guard :: Guard(PersonalInfo PersonPersonalInfo, WorkStuffInfo EmployeeWorkStuffInfo)
-        : Employee (std::move(PersonPersonalInfo), EmployeeWorkStuffInfo)
+        : Employee (PersonPersonalInfo, EmployeeWorkStuffInfo)
 {
 }
 void Guard :: Print()

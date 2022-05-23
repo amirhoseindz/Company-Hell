@@ -2,7 +2,7 @@
 #include <utility>
 
 Artist :: Artist(PersonalInfo PersonPersonalInfo, WorkStuffInfo EmployeeWorkStuffInfo)
-        : Employee (std::move(PersonPersonalInfo), EmployeeWorkStuffInfo)
+        : Employee (PersonPersonalInfo, EmployeeWorkStuffInfo)
 {
 }
 void Artist :: Print()

@@ -2,7 +2,7 @@
 
 #include <utility>
 Employee :: Employee(PersonalInfo PersonPersonalInfo, WorkStuffInfo WorkStuffInfo)
-                    : Person(std::move(PersonPersonalInfo))
+                    : Person(PersonPersonalInfo)
 {
     _WorkStuffInfo = WorkStuffInfo;
 }

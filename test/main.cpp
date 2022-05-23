@@ -21,7 +21,6 @@ int main()
 {
     bool GetInputs = true;
     vector <Employee*> employees {};
-    int count = 0;
     string EmployeesFirstName, EmployeesLastName;
     int EmployeesNationalIdNumber, EmployeesWorkIdNumber, EmployeesSalary;
     while (GetInputs)
@@ -99,8 +98,6 @@ int main()
             employee = &Guard;
         }
         employees.push_back(employee);
-        cout  << endl << employees.at(count) << endl;
-        ++count;
     }
     for (int i = 0; i < employees.size(); i++)
     {

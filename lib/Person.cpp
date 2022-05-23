@@ -3,7 +3,7 @@
 #include <utility>
 Person :: Person(PersonalInfo PersonPersonalInfo)
 {
-    _PersonalInfo = std::move(PersonPersonalInfo);
+    _PersonalInfo = PersonPersonalInfo;
 }
 void  Person :: PersonalInfoChanges (const string& NewFName, const string& NewLName)
 {

@@ -3,7 +3,7 @@
 #include <utility>
 
 Programmer :: Programmer(PersonalInfo PersonPersonalInfo, WorkStuffInfo EmployeeWorkStuffInfo)
-        : Employee (std::move(PersonPersonalInfo), EmployeeWorkStuffInfo)
+        : Employee (PersonPersonalInfo, EmployeeWorkStuffInfo)
 {
 }
 void Programmer :: Print()

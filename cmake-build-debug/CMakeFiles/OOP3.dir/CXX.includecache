@@ -46,33 +46,9 @@ D:/c_lion/OOP3/include/Employee.h
 
 D:/c_lion/OOP3/include/WorkStuffInfo.h
 
-D:/c_lion/OOP3/lib/Artist.cpp
-../include/Artist.h
-D:/c_lion/OOP3/include/Artist.h
-utility
--
-
 D:/c_lion/OOP3/lib/Employee.cpp
 ../include/Employee.h
 D:/c_lion/OOP3/include/Employee.h
-utility
--
-
-D:/c_lion/OOP3/lib/Guard.cpp
-../include/Guard.h
-D:/c_lion/OOP3/include/Guard.h
-utility
--
-
-D:/c_lion/OOP3/lib/Person.cpp
-../include/Person.h
-D:/c_lion/OOP3/include/Person.h
-utility
--
-
-D:/c_lion/OOP3/lib/Programmer.cpp
-../include/Programmer.h
-D:/c_lion/OOP3/include/Programmer.h
 utility
 -
 
