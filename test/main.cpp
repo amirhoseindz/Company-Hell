@@ -20,8 +20,13 @@ vector<Gun> MakeGunsList(int NumberOfBullets)
 int main()
 {
     bool GetInputs = true;
+    vector <Employee*> employees {};
+    int count = 0;
+    string EmployeesFirstName, EmployeesLastName;
+    int EmployeesNationalIdNumber, EmployeesWorkIdNumber, EmployeesSalary;
     while (GetInputs)
     {
+        Employee *employee;
         int i;
         cout << "Hello, pleas enter the the type of employee u wanna put info's in \n"
              << "in order to do that if u want to put artists info enter 1 \nif u want to put programmers info enter 2 "
@@ -32,84 +37,54 @@ int main()
             GetInputs = false;
             cout << "you have ended the process";
         }
+        else
+        {
+            cout << "pleas enter employee's info : "
+                 << "\n enter her/his first name : " << endl;
+            cin.clear();
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            getline(cin, EmployeesFirstName);
+            cout << "now pleas enter her/his last name : " << endl;
+            getline(cin, EmployeesLastName);
+            cout << "now pleas enter her/his national id number : " << endl;
+            cin >> EmployeesNationalIdNumber;
+            cout << "now pleas enter her/his work id number : " << endl;
+            cin >> EmployeesWorkIdNumber;
+            cout << "pleas enter her/his salary : " << endl;
+            cin >> EmployeesSalary;
+        }
         if (i == 1)
         {
             GetInputs = true;
-            string ArtistsFirstName, ArtistsLastName;
-            int ArtistsNationalIdNumber, ArtistsWorkIdNumber, ArtistsSalary;
-            cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            cout << "pleas enter artist's info : "
-                 << "\n enter her/his first name : " << endl;
-            getline(cin, ArtistsFirstName);
-            cout << "now pleas enter her/his last name : " << endl;
-            getline(cin, ArtistsLastName);
-            cout << "now pleas enter her/his national id number : " << endl;
-            cin >> ArtistsNationalIdNumber;
-            cout << "now pleas enter her/his work id number : " << endl;
-            cin >> ArtistsWorkIdNumber;
-            cout << "pleas enter her/his salary : " << endl;
-            cin >> ArtistsSalary;
-            PersonalInfo ArtistPersonalInfo(ArtistsFirstName, ArtistsLastName,ArtistsNationalIdNumber);
-            WorkStuffInfo ArtistWorkStuffInfo(ArtistsWorkIdNumber, ArtistsSalary);
+            PersonalInfo ArtistPersonalInfo(EmployeesFirstName, EmployeesLastName,EmployeesNationalIdNumber);
+            WorkStuffInfo ArtistWorkStuffInfo(EmployeesWorkIdNumber, EmployeesSalary);
             Artist Artist (ArtistPersonalInfo, ArtistWorkStuffInfo);
             cin.clear();
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             cout << "pleas enter the software that the artist knows : " << endl;
             getline(cin, Artist.TheSoftwareGettingUsed);
-            Artist.Print();
-            i = -1;
+            employee = &Artist;
         }
         if (i == 2)
         {
             GetInputs = true;
-            string ProgrammersFirstName, ProgrammersLastName;
-            int ProgrammersNationalIdNumber, ProgrammersWorkIdNumber, ProgrammersSalary;
-            cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            cout << "pleas enter programmer's info "
-                 << "\n enter her/his first name : " << endl;
-            getline(cin, ProgrammersFirstName);
-            cout << "now pleas enter her/his last name : " << endl;
-            getline(cin, ProgrammersLastName);
-            cout << "now pleas enter her/his national id number : " << endl;
-            cin >> ProgrammersNationalIdNumber;
-            cout << "now pleas enter her/his work id number : " << endl;
-            cin >> ProgrammersWorkIdNumber;
-            cout << "pleas enter her/his salary : " << endl;
-            cin >> ProgrammersSalary;
-            PersonalInfo ProgrammerPersonalInfo(ProgrammersFirstName, ProgrammersLastName,ProgrammersNationalIdNumber);
-            WorkStuffInfo ProgrammerWorkStuffInfo(ProgrammersWorkIdNumber, ProgrammersSalary);
+            PersonalInfo ProgrammerPersonalInfo(EmployeesFirstName, EmployeesLastName,EmployeesNationalIdNumber);
+            WorkStuffInfo ProgrammerWorkStuffInfo(EmployeesWorkIdNumber, EmployeesSalary);
             Programmer Programmer (ProgrammerPersonalInfo, ProgrammerWorkStuffInfo);
-            cout << "pleas enter the language that programmer knows :  " << endl;
             cin.clear();
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cout << "pleas enter the language that programmer knows :  " << endl;
             getline(cin, Programmer.TheLanguageGettinUsed);
             cout << "if this programmer has a laptop enter 1 otherwise enter 0 : " << endl;
             cin >> Programmer.HavingLaptop;
-            Programmer.Print();
+            employee = &Programmer;
         }
         if (i == 3)
         {
             GetInputs = true;
-            string GuardsFirstName, GuardsLastName;
-            int GuardsNationalIdNumber, GuardsWorkIdNumber, GuardsSalary;
             bool GuardIsdUsingGun;
-            cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            cout << "pleas enter guard's info "
-                 << "\n enter her/his first name : " << endl;
-            getline(cin, GuardsFirstName);
-            cout << "now pleas enter her/his last name : " << endl;
-            getline(cin, GuardsLastName);
-            cout << "now pleas enter her/his national id number : " << endl;
-            cin >> GuardsNationalIdNumber;
-            cout << "now pleas enter her/his work id number : " << endl;
-            cin >> GuardsWorkIdNumber;
-            cout << "pleas enter her/his salary : " << endl;
-            cin >> GuardsSalary;
-            PersonalInfo GuardPersonalInfo(GuardsFirstName, GuardsLastName,GuardsNationalIdNumber);
-            WorkStuffInfo GuardWorkStuffInfo(GuardsWorkIdNumber, GuardsSalary);
+            PersonalInfo GuardPersonalInfo(EmployeesFirstName, EmployeesLastName,EmployeesNationalIdNumber);
+            WorkStuffInfo GuardWorkStuffInfo(EmployeesWorkIdNumber, EmployeesSalary);
             Guard Guard (GuardPersonalInfo, GuardWorkStuffInfo);
             cout << "if this guard  has a gun pleas enter 1 otherwise enter 0 : " << endl;
             cin >> GuardIsdUsingGun;
@@ -121,7 +96,14 @@ int main()
                 int IndexNumberOfTheGunGuardHasInTheStack = 3;
                 Guard.SetGuardsGunObj((GunsList.at(IndexNumberOfTheGunGuardHasInTheStack)));
             }
-            Guard.Print();
+            employee = &Guard;
         }
+        employees.push_back(employee);
+        cout  << endl << employees.at(count) << endl;
+        ++count;
+    }
+    for (int i = 0; i < employees.size(); i++)
+    {
+        employees.at(i)->Print();
     }
 }

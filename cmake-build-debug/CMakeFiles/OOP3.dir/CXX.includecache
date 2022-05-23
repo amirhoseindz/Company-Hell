@@ -58,29 +58,15 @@ D:/c_lion/OOP3/include/Employee.h
 utility
 -
 
-D:/c_lion/OOP3/lib/Enum.cpp
-../include/Enum.h
-D:/c_lion/OOP3/include/Enum.h
-
 D:/c_lion/OOP3/lib/Guard.cpp
 ../include/Guard.h
 D:/c_lion/OOP3/include/Guard.h
 utility
 -
 
-D:/c_lion/OOP3/lib/Gun.cpp
-../include/Gun.h
-D:/c_lion/OOP3/include/Gun.h
-
 D:/c_lion/OOP3/lib/Person.cpp
 ../include/Person.h
 D:/c_lion/OOP3/include/Person.h
-utility
--
-
-D:/c_lion/OOP3/lib/PersonalInfo.cpp
-../include/PersonalInfo.h
-D:/c_lion/OOP3/include/PersonalInfo.h
 utility
 -
 
@@ -90,16 +76,12 @@ D:/c_lion/OOP3/include/Programmer.h
 utility
 -
 
-D:/c_lion/OOP3/lib/WorkStuffInfo.cpp
-../include/WorkStuffInfo.h
-D:/c_lion/OOP3/include/WorkStuffInfo.h
-iostream
--
-
 D:/c_lion/OOP3/test/main.cpp
 iostream
 -
 vector
+-
+limits
 -
 ../include/Artist.h
 D:/c_lion/OOP3/include/Artist.h
