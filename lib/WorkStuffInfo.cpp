@@ -1,4 +1,4 @@
-#include "WorkStuffInfo.h"
+#include "../include/WorkStuffInfo.h"
 #include <iostream>
 using namespace std;
 WorkStuffInfo :: WorkStuffInfo ()

@@ -1,4 +1,4 @@
-#include "Gun.h"
+#include "../include/Gun.h"
 void Gun :: SetValue(GunsTypesList Gun, int NumberOfBullets)
 {
     _Gun = Gun;

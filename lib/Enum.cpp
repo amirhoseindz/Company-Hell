@@ -1,4 +1,4 @@
-#include "Enum.h"
+#include "../include/Enum.h"
 ostream& operator << (ostream& out, const GunsTypesList Gun )
 {
     if (Gun == GunsTypesList :: Shotgun)

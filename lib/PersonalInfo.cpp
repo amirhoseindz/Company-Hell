@@ -1,4 +1,4 @@
-#include "PersonalInfo.h"
+#include "../include/PersonalInfo.h"
 
 #include <utility>
 PersonalInfo :: PersonalInfo()

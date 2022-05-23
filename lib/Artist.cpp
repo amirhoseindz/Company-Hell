@@ -1,5 +1,4 @@
-#include "Artist.h"
-
+#include "../include/Artist.h"
 #include <utility>
 
 Artist :: Artist(PersonalInfo PersonPersonalInfo, WorkStuffInfo EmployeeWorkStuffInfo)

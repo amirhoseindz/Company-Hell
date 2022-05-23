@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
-#include "Gun.h"
-#include "PersonalInfo.h"
-#include "WorkStuffInfo.h"
-#include "Artist.h"
-#include "Programmer.h"
-#include "Guard.h"
+#include "../include/Gun.h"
+#include "../include/PersonalInfo.h"
+#include "../include/WorkStuffInfo.h"
+#include "../include/Artist.h"
+#include "../include/Programmer.h"
+#include "../include/Guard.h"
 using namespace std;
 vector<Gun> MakeGunsList(int NumberOfBullets)
 {
@@ -14,7 +14,7 @@ vector<Gun> MakeGunsList(int NumberOfBullets)
     for (const auto &gunType : GunsTypesList())
     {
         Gun gunToAdd{};
-        gunToAdd.SetValueToGun(gunType, NumberOfBulletsGunHas);
+        gunToAdd.SetValue(gunType, NumberOfBulletsGunHas);
         Guns.push_back(gunToAdd);
     }
     return Guns;
@@ -44,7 +44,7 @@ int main()
     Programmer1.TheLanguageGettinUsed = "cpp";
     Programmer2.TheLanguageGettinUsed= "c#";
     cout << "if this programmer has a laptop enter 1 otherwise enter 0 : " << endl;
-    cin >> Programmer1.ProgrammerHavingLaptop;
+    cin >> Programmer1.HavingLaptop;
     bool GuarIsdUsingGun;
     cout << "if this guard  has a gun pleas enter 1 otherwise enter 0 : " << endl;
     cin >> GuarIsdUsingGun;
