@@ -46,12 +46,6 @@ D:/c_lion/OOP3/include/Employee.h
 
 D:/c_lion/OOP3/include/WorkStuffInfo.h
 
-D:/c_lion/OOP3/lib/Employee.cpp
-../include/Employee.h
-D:/c_lion/OOP3/include/Employee.h
-utility
--
-
 D:/c_lion/OOP3/test/main.cpp
 iostream
 -
