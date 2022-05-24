@@ -1,9 +1,9 @@
 #include <iostream>
-#include <vector>
 #include <limits>
 #include "../include/Artist.h"
 #include "../include/Programmer.h"
 #include "../include/Guard.h"
+#include "../lib/MyVector.cpp"
 using namespace std;
 vector<Gun> MakeGunsList(int NumberOfBullets)
 {
@@ -20,7 +20,8 @@ vector<Gun> MakeGunsList(int NumberOfBullets)
 int main()
 {
     bool GetInputs = true;
-    vector <Employee*> employees {};
+    MyVector <Employee*> employees;
+    Employee *employee;
     string EmployeesFirstName, EmployeesLastName;
     int EmployeesNationalIdNumber, EmployeesWorkIdNumber, EmployeesSalary;
     while (GetInputs)
@@ -38,7 +39,6 @@ int main()
         }
         else
          {
-            Employee *employee;
             cout << "pleas enter employee's info : "
                  << "\n enter her/his first name : " << endl;
             cin.clear();
@@ -56,7 +56,7 @@ int main()
             WorkStuffInfo WorkStuffInfo(EmployeesWorkIdNumber, EmployeesSalary);
              if (i == 1)
              {
-                 Artist* artist = new Artist (PersonalInfo, WorkStuffInfo);
+                 auto* artist = new Artist (PersonalInfo, WorkStuffInfo);
                  cin.clear();
                  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                  cout << "pleas enter the software that the artist knows : " << endl;
@@ -65,11 +65,11 @@ int main()
              }
              if (i == 2)
              {
-                 Programmer* programmer = new Programmer (PersonalInfo, WorkStuffInfo);
+                 auto* programmer = new Programmer (PersonalInfo, WorkStuffInfo);
                  cin.clear();
                  cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                  cout << "pleas enter the language that programmer knows :  " << endl;
-                 getline(cin, programmer->TheLanguageGettinUsed);
+                 getline(cin, programmer->TheLanguageGettingUsed);
                  cout << "if this programmer has a laptop enter 1 otherwise enter 0 : " << endl;
                  cin >> programmer->HavingLaptop;
                  employee = programmer;
@@ -90,11 +90,11 @@ int main()
                  }
                  employee = guard;
              }
-             employees.push_back(employee);
+             employees.PushBack(employee);
         }
     }
-    for (int i = 0; i < employees.size(); i++)
+    for (int i = 0; i < employees.GenericVector.size(); i++)
     {
-        employees.at(i)->Print();
+        employees.GenericVector.at(i)->Print();
     }
 }

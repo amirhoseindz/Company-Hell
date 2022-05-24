@@ -32,6 +32,10 @@ D:/c_lion/OOP3/include/Gun.h
 Enum.h
 D:/c_lion/OOP3/include/Enum.h
 
+D:/c_lion/OOP3/include/MyVector.h
+vector
+-
+
 D:/c_lion/OOP3/include/Person.h
 PersonalInfo.h
 D:/c_lion/OOP3/include/PersonalInfo.h
@@ -46,10 +50,12 @@ D:/c_lion/OOP3/include/Employee.h
 
 D:/c_lion/OOP3/include/WorkStuffInfo.h
 
+D:/c_lion/OOP3/lib/MyVector.cpp
+../include/MyVector.h
+D:/c_lion/OOP3/include/MyVector.h
+
 D:/c_lion/OOP3/test/main.cpp
 iostream
--
-vector
 -
 limits
 -
@@ -59,4 +65,6 @@ D:/c_lion/OOP3/include/Artist.h
 D:/c_lion/OOP3/include/Programmer.h
 ../include/Guard.h
 D:/c_lion/OOP3/include/Guard.h
+../lib/MyVector.cpp
+D:/c_lion/OOP3/lib/MyVector.cpp
 

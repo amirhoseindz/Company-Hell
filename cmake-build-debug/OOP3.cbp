@@ -97,6 +97,9 @@
 		<Unit filename="D:/c_lion/OOP3/include/Gun.h">
 			<Option target="OOP3"/>
 		</Unit>
+		<Unit filename="D:/c_lion/OOP3/include/MyVector.h">
+			<Option target="OOP3"/>
+		</Unit>
 		<Unit filename="D:/c_lion/OOP3/include/Person.h">
 			<Option target="OOP3"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="OOP3"/>
 		</Unit>
 		<Unit filename="D:/c_lion/OOP3/lib/Gun.cpp">
+			<Option target="OOP3"/>
+		</Unit>
+		<Unit filename="D:/c_lion/OOP3/lib/MyVector.cpp">
 			<Option target="OOP3"/>
 		</Unit>
 		<Unit filename="D:/c_lion/OOP3/lib/Person.cpp">

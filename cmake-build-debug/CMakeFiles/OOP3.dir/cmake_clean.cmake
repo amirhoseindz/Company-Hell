@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OOP3.dir/lib/Enum.cpp.obj"
   "CMakeFiles/OOP3.dir/lib/Guard.cpp.obj"
   "CMakeFiles/OOP3.dir/lib/Gun.cpp.obj"
+  "CMakeFiles/OOP3.dir/lib/MyVector.cpp.obj"
   "CMakeFiles/OOP3.dir/lib/Person.cpp.obj"
   "CMakeFiles/OOP3.dir/lib/PersonalInfo.cpp.obj"
   "CMakeFiles/OOP3.dir/lib/Programmer.cpp.obj"

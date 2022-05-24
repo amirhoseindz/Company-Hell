@@ -5,7 +5,7 @@ using namespace std;
 class Programmer : public Employee
 {
 public:
-    string TheLanguageGettinUsed;
+    string TheLanguageGettingUsed;
     bool HavingLaptop;
     Programmer(PersonalInfo PersonPersonalInfo, WorkStuffInfo EmployeeWorkStuffInfo);
     void Print() override;

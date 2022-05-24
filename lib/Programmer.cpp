@@ -10,7 +10,7 @@ void Programmer :: Print()
 {
     cout << "Programmer's infos are : " << endl;
     Employee :: Print();
-    cout << "the the language that programmer knows is : " << TheLanguageGettinUsed << endl;
+    cout << "the the language that programmer knows is : " << TheLanguageGettingUsed << endl;
     if (HavingLaptop)
     {
         cout << "this programmer has a laptop" << endl;

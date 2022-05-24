@@ -277,6 +277,33 @@ lib/Gun.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/Gun.cpp.s
 .PHONY : lib/Gun.cpp.s
 
+lib/MyVector.obj: lib/MyVector.cpp.obj
+
+.PHONY : lib/MyVector.obj
+
+# target to build an object file
+lib/MyVector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/MyVector.cpp.obj
+.PHONY : lib/MyVector.cpp.obj
+
+lib/MyVector.i: lib/MyVector.cpp.i
+
+.PHONY : lib/MyVector.i
+
+# target to preprocess a source file
+lib/MyVector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/MyVector.cpp.i
+.PHONY : lib/MyVector.cpp.i
+
+lib/MyVector.s: lib/MyVector.cpp.s
+
+.PHONY : lib/MyVector.s
+
+# target to generate assembly for a file
+lib/MyVector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP3.dir\build.make CMakeFiles/OOP3.dir/lib/MyVector.cpp.s
+.PHONY : lib/MyVector.cpp.s
+
 lib/Person.obj: lib/Person.cpp.obj
 
 .PHONY : lib/Person.obj
@@ -436,6 +463,9 @@ help:
 	@echo ... lib/Gun.obj
 	@echo ... lib/Gun.i
 	@echo ... lib/Gun.s
+	@echo ... lib/MyVector.obj
+	@echo ... lib/MyVector.i
+	@echo ... lib/MyVector.s
 	@echo ... lib/Person.obj
 	@echo ... lib/Person.i
 	@echo ... lib/Person.s

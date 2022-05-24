@@ -24,4 +24,4 @@ add_executable(OOP3
         lib/PersonalInfo.cpp
         lib/Programmer.cpp
         lib/WorkStuffInfo.cpp
-        test/main.cpp)
+        test/main.cpp include/MyVector.h lib/MyVector.cpp)

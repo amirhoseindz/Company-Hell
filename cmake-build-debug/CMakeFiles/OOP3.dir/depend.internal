@@ -30,6 +30,9 @@ CMakeFiles/OOP3.dir/lib/Gun.cpp.obj
  D:/c_lion/OOP3/include/Enum.h
  D:/c_lion/OOP3/include/Gun.h
  D:/c_lion/OOP3/lib/Gun.cpp
+CMakeFiles/OOP3.dir/lib/MyVector.cpp.obj
+ D:/c_lion/OOP3/include/MyVector.h
+ D:/c_lion/OOP3/lib/MyVector.cpp
 CMakeFiles/OOP3.dir/lib/Person.cpp.obj
  D:/c_lion/OOP3/include/Person.h
  D:/c_lion/OOP3/include/PersonalInfo.h
@@ -53,8 +56,10 @@ CMakeFiles/OOP3.dir/test/main.cpp.obj
  D:/c_lion/OOP3/include/Enum.h
  D:/c_lion/OOP3/include/Guard.h
  D:/c_lion/OOP3/include/Gun.h
+ D:/c_lion/OOP3/include/MyVector.h
  D:/c_lion/OOP3/include/Person.h
  D:/c_lion/OOP3/include/PersonalInfo.h
  D:/c_lion/OOP3/include/Programmer.h
  D:/c_lion/OOP3/include/WorkStuffInfo.h
+ D:/c_lion/OOP3/lib/MyVector.cpp
  D:/c_lion/OOP3/test/main.cpp

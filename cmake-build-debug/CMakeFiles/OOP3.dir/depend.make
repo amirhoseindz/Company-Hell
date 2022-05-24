@@ -30,6 +30,9 @@ CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: ../include/Enum.h
 CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: ../include/Gun.h
 CMakeFiles/OOP3.dir/lib/Gun.cpp.obj: ../lib/Gun.cpp
 
+CMakeFiles/OOP3.dir/lib/MyVector.cpp.obj: ../include/MyVector.h
+CMakeFiles/OOP3.dir/lib/MyVector.cpp.obj: ../lib/MyVector.cpp
+
 CMakeFiles/OOP3.dir/lib/Person.cpp.obj: ../include/Person.h
 CMakeFiles/OOP3.dir/lib/Person.cpp.obj: ../include/PersonalInfo.h
 CMakeFiles/OOP3.dir/lib/Person.cpp.obj: ../lib/Person.cpp
@@ -52,9 +55,11 @@ CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Employee.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Enum.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Guard.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Gun.h
+CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/MyVector.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Person.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/PersonalInfo.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/Programmer.h
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../include/WorkStuffInfo.h
+CMakeFiles/OOP3.dir/test/main.cpp.obj: ../lib/MyVector.cpp
 CMakeFiles/OOP3.dir/test/main.cpp.obj: ../test/main.cpp
 
