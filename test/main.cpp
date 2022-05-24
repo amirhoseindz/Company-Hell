@@ -27,7 +27,7 @@ int main()
     while (GetInputs)
     {
         int i;
-        cout << "Hello, pleas enter the the type of employee u wanna put info's in \n"
+        cout << "\nHello, pleas enter the the type of employee u wanna put info's in \n"
              << "in order to do that if u want to put artists info enter 1 \nif u want to put programmers info enter 2 "
                 "\nand if u wnt to put guards info please enter 3\nBut if u want to end the process enter 0"
                 "\n enter your number : ";
@@ -35,7 +35,7 @@ int main()
         if (i == 0)
         {
             GetInputs = false;
-            cout << "you have ended the process";
+            cout << "you have ended the process" << endl;
         }
         else
          {
@@ -91,6 +91,16 @@ int main()
                  employee = guard;
              }
              employees.PushBack(employee);
+        }
+        int IndexNumber;
+        IndexNumber = employees.FindIndex(employee);
+        if (IndexNumber >= 0 )
+        {
+            cout << "the number of each indexes in employees list are : " << IndexNumber << endl;
+        }
+        else
+        {
+            cout << "Element not found" << endl;
         }
     }
     for (int i = 0; i < employees.GenericVector.size(); i++)

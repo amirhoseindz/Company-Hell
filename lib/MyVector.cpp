@@ -5,7 +5,14 @@ void MyVector<T> :: PushBack ( T VectorMember)
     GenericVector.push_back(VectorMember);
 }
 template<class T>
-void MyVector<T> :: ChooseMember ( T VectorMember)
+int MyVector<T> :: FindIndex ( T VectorMember)
 {
-    GenericVector.at(VectorMember);
+    for (int i = 0; i < GenericVector.size(); i++)
+    {
+        if ( GenericVector[i] != VectorMember)
+        {
+            continue;
+        }
+        return i;
+    }
 }

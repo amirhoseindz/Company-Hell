@@ -8,6 +8,6 @@ class MyVector
 public:
     vector <T> GenericVector;
     void PushBack (T VectorMember);
-    void ChooseMember (T VectorMember);
+    int FindIndex (T VectorMember);
 };
 #endif //MAIN_CPP_MYVECTOR_H
